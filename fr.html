@@ -1,0 +1,123 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laure Arcizet</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=DM+Serif+Display&display=swap">
+<style>
+:root { --bg: #fff7f5; --rose: #c25b66; --ink: #5c1f1f; --muted: #8f5a5a; --rule: #ecd5d2; }
+body { margin: 0; padding: 50px 24px; background: var(--bg); color: var(--ink); font: 19px/1.5 "Crimson Pro", Georgia, serif; }
+a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+a:hover { color: var(--rose); }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 26px 0; }
+p, li { margin: 0 0 18px; }
+ul { list-style: none; padding: 0; }
+small { display: block; color: var(--muted); font-size: 18px; font-weight: 400; }
+
+.wrapper { max-width: 960px; margin: auto; display: flex; align-items: flex-start; gap: 6%; }
+header { flex: 0 0 30%; max-width: 300px; position: sticky; top: 50px; }
+main { flex: 1; min-width: 0; }
+
+.namecard { position: relative; padding: 14px 0 0 20%; margin-bottom: 26px; }
+.namecard img { display: block; width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+.namecard p { position: absolute; top: 0; left: 0; font: 11px/1 Arial, sans-serif; }
+h1 { position: absolute; top: 20px; left: 0; margin: 0; font: 400 clamp(34px, 4.6vw, 46px)/.88 "DM Serif Display", serif; letter-spacing: -1px; color: var(--rose); -webkit-text-stroke: 5px var(--bg); paint-order: stroke fill; }
+nav a { display: block; font-size: 20px; line-height: 1.35; text-decoration: none; }
+
+h2 { font-size: 32px; line-height: 1.1; color: var(--rose); margin: 0 0 16px; }
+h3 { font-size: 21px; line-height: 1.25; margin: 0 0 22px; }
+h3 a { text-decoration: none; }
+
+@media (max-width: 640px) {
+  .wrapper { display: block; }
+  header { position: static; margin-bottom: 36px; }
+  h1 { font-size: 46px; }
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+
+<header>
+  <div class="namecard">
+    <p>Bonjour, je suis</p>
+    <h1>Laure<br>A.</h1>
+    <img src="images/laure-arcizet.jpg" alt="Portrait de Laure Arcizet">
+  </div>
+  <nav>
+    <a href="#contact">Contact</a>
+    <a href="papers/CV_Laure_Arcizet.pdf">CV</a>
+    <a href="https://www.linkedin.com/in/laure-arcizet">LinkedIn</a>
+    <a href="index.html">English version</a>
+  </nav>
+</header>
+
+<main>
+  <h2>À propos</h2>
+
+  <p>Je suis doctorante en économie à <b>HEC Paris</b>, sous la direction 
+    d'Antonin Bergeaud, et affiliée au <b>Farhi Innovation Lab</b> 
+    (Collège de France).</p>
+
+  <p>À partir de méthodes structurelles et quasi expérimentales, 
+    j'étudie les effets des politiques du logement et de l'autonomie 
+    fiscale des collectivités locales sur l'activité productive, 
+    ainsi que les conséquences de la concentration croissante 
+    de l'innovation au sein d'un nombre restreint d'entreprises, 
+    de technologies et de pôles géographiques.</p>
+
+  <p>J'ai été formée en économie et en mathématiques à l'École normale 
+    supérieure, où j'ai cofondé la 
+    <a href="https://laconferencedc.fr">Conférence Daniel Cohen</a>.
+    Nous organisons des rencontres publiques visant à éclairer 
+    le débat économique à la lumière des travaux de recherche récents,
+    notamment sur les moteurs de la croissance.</p>
+
+  <hr>
+
+  <h2>Travaux de recherche en cours</h2>
+
+  <h3>
+    <a href="#">Les effets des politiques de logement social sur 
+      le marché du travail : le cas de Paris</a>
+    <small>(avec Adrien Mangold)</small>
+  </h3>
+
+  <h3>
+    <a href="#">La concentration de l'innovation</a>
+    <small>(avec Lilian Hartmann)</small>
+  </h3>
+
+  <h3>
+    <a href="#">Le renouvellement des inventeurs dans les pôles 
+      d'innovation</a>
+    <small>(avec Philippe Aghion, Antonin Bergeaud, Lilian Hartmann 
+      et Marta Prato)</small>
+  </h3>
+
+  <h3>
+    <a href="#">Vieillissement démographique, dette municipale 
+      et transferts territoriaux</a>
+    <small>(avec Abel Gonzales-Hishinuma)</small>
+  </h3>
+
+  <hr>
+
+  <h2>Varia</h2>
+
+  <ul>
+    <li><a href="#">L'État-providence va-t-il devenir un État-hospice ?</a></li>
+    <li><a href="#">Entretien avec Bruno Le Maire</a></li>
+    <li><a href="#">Rendre l'économie accessible à tous, c'est renouer 
+      avec sa vocation : comprendre la société</a></li>
+    <li><a href="#">Entretien avec Olivier Blanchard</a></li>
+  </ul>
+
+</main>
+
+</div>
+</body>
+</html>
